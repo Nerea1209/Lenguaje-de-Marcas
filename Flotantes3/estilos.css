@@ -1,0 +1,15 @@
+/* colores usados: hsl(54, 100%, 75%);hsl(43, 100%, 60%);hsl(28, 100%, 50%);hsl(49, 100%, 60%);
+Tipo de letra : sans-serif;
+*/
+h1{
+	background-color:hsl(54, 100%, 75%);
+}
+
+h2{
+	background-color:hsl(43, 100%, 60%);
+}
+
+h3{
+	background-color:hsl(28, 100%, 50%);
+}
+

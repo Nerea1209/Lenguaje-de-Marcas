@@ -1,0 +1,59 @@
+html{
+box-sizing: border-box;
+height:100%;
+padding-top:1em;
+}
+
+*{
+box-sixing:inherit;
+margin: 0px;
+padding: 0px;
+}
+
+#enlace1{
+background: url("../images/euro.png") no-repeat 10px;
+color: orange;
+}
+
+#enlace2{
+background: url("../images/dolar.png") no-repeat 10px;
+color: lightgreen;
+}
+
+#enlace3{
+background: url("../images/libra.png") no-repeat 10px;
+color: lightblue;
+}
+
+#enlace4{
+background: url("../images/yen.png") no-repeat 10px;
+color: green;
+}
+
+a{
+padding-left:30px;
+margin-top: 2em;
+display:block;
+}
+
+h1{padding-left:10px;}
+
+#enlace1:hover{
+background: url("../images/dolar.png") no-repeat 10px;
+color: lightgreen;
+}
+
+#enlace2:hover{
+background: url("../images/yen.png") no-repeat 10px;
+color: green;
+}
+
+#enlace3:hover{
+background: url("../images/dolar.png") no-repeat 10px;
+color: lightgreen;
+}
+
+#enlace4:hover{
+background: url("../images/euro.png") no-repeat 10px;
+color: orange;
+}

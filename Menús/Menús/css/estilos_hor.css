@@ -1,0 +1,13 @@
+*{margin: 0; padding: 0; box-sizing: border-box; }
+
+html{padding-top: 1em;}
+
+ul{list-style: none; border: 1px solid #7c7c7c; width: 80%; border-right: none; overflow: hidden; margin: 0 auto; }
+
+ul li{border-right: 1px solid #7c7c7c; float: left; width: 16.666666666%; background: #f4f4f4 url("../images/flecha_inactiva.png") no-repeat 3px; }
+
+/* Si no le ponemos display: block, solo cambiará el padding de derecha e izquierda */
+ul li a{padding-left: 1.6em; padding-top: 3px;display: block; text-decoration: none; color: #333; }
+
+ul li a:hover{background: #ccc url("../images/flecha_activa.png") no-repeat 3px; }
+

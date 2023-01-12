@@ -1,0 +1,43 @@
+
+html{
+box-sizing: border-box;
+height: 100%; // Para poder controlar la altura
+}
+
+*{
+box-sizing: inherit;
+margin: 0px;
+padding: 0px;
+}
+
+div {
+width: 30%;
+margin-left: 2.5%;
+margin-top: 2.5%;
+float: left;
+border: 1px solid black;
+}
+
+div img {
+border: 1px dashed red;
+height:100px;
+}
+
+#img1{vertical-align:Baseline;}
+#img2{vertical-align:Sub;}
+#img3{vertical-align:Super;}
+#img4{vertical-align:Top;}
+#img5{vertical-align:Text-top;}
+#img6{vertical-align:Middle;}
+#img7{vertical-align:Bottom;}
+#img8{vertical-align:Text-Bottom;}
+#img9{vertical-align:1em;}
+#img10{vertical-align:-1em;}
+#img11{vertical-align:20%;}
+#img12{vertical-align:80%;}
+
+.medio{
+float:right;
+font-size:1.5em;
+line-height:100px;
+}

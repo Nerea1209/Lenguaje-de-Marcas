@@ -1,0 +1,11 @@
+*{margin: 0; padding: 0; box-sizing: border-box; }
+
+html{padding-top: 1em; }
+
+ul{margin: 1.5em; list-style: none; border: 1px solid #7c7c7c; width: 180px; border-bottom: none; }
+
+ul li{border-bottom: 1px solid #7c7c7c; background: #f4f4f4 url("../images/flecha_inactiva.png") no-repeat 3px; }
+
+li a{padding-left: 1.6em; padding-top: .5em; display: block; text-decoration: none; color: #333; padding-bottom: 3px;  }
+
+li a:hover{background: #ccc url("../images/flecha_activa.png") no-repeat 3px; }

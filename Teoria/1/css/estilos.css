@@ -1,0 +1,15 @@
+*{margin: 0; padding: 0; box-sizing: border-box; }
+h1, h3{margin: 1em; }
+
+ol{margin: 1.5em; list-style: none; border: 1px solid #7c7c7c; width: 180px; border-bottom: none; }
+
+ol li{border-bottom: 1px solid #7c7c7c; background-color: #f4f4f4; }
+
+ul{list-style: none; border: 1px solid #7c7c7c; width: 100%; border-right: none; overflow: hidden; }
+
+ul li{border-right: 1px solid #7c7c7c; background-color: #f4f4f4; float: left; width: 16.666666666%; }
+
+/* Si no le ponemos display: block, solo cambiará el padding de derecha e izquierda */
+li a{padding: 0.5em; display: block; text-decoration: none; color: #333; text-align: center; }
+
+li a:hover{background-color: #ccc; }
