@@ -1,0 +1,26 @@
+*{margin: 0; padding: 0; }
+
+/*Todas las listas desordenadas*/
+ul{list-style: none; }
+
+/*Lista principal*/
+#menu{width: 40%; margin: 0 auto; }
+#menu > li{width: 25%; float: left; }
+#menu ul{display: none; }
+/*Para que la a ocupe todo el recuadro, display: block, además podremos alinearla, ponerle padding, etc*/
+#menu li a{
+	display: block; 
+	color: white; 
+	background-color: black; 
+	text-decoration: none; 
+	text-align: center;
+	padding: 0.6em;
+}
+#menu li a:hover{background-color: #343434; }
+/*Antes estaba display: none; ahora, para que se vea, tenemos que ponerle display: block; */
+#menu li:hover > ul{display: block;}
+
+/*Si le ponemos position:absolute a un <li> tomará como padre a la página completa,
+para cambiarlo, hay que poner position: relative al elemento que queramos que sea padre*/
+#li_padre{position: relative; }
+#ul_hija{position: absolute; width: 100%; left: 100%; top: 0; }
