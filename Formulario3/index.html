@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="es">
+	<head>
+		<title>Formulario datos personales. Ejercicios.</title>
+		<meta charset="UTF-8"/>
+		<link rel="shortcut icon" href=""/>
+		<link rel="stylesheet" href="css/estilos.css"/>
+	</head>
+	<body>
+		<h1>EJEMPLO DE FORMULARIO</h1>
+		<fieldset>
+			<legend>Datos personales</legend>
+			<form action="#" method="post">
+			<div id="cincuenta">
+				<div id="setentaycinco">
+					<p><label for="apellidos">Apellidos:</label></p>
+					<input type="text" name="apellidos" id="apellidos" size="30%"/>
+					
+					<p><label for="nacido">Nacido en:</label></p>
+					<input type="text" name="nacido" id="nacido" size="20%"/>
+					
+					<p><label for="domicilio1">Domic</label><label for="domicilio2">ilio:</label></p>
+					<select name="domicilio1" id="domicilio1">
+						<option value="0" selected></option>
+						<option value="1" >Calle</option>
+						<option value="2" >Pasaje</option>
+						<option value="3" >Avenida</option>
+					</select>
+					<input type="text" name="domicilio2" id="domicilio2" size="30%"/>
+					
+					<p><label for="localidad">Localidad:</label></p>
+					<input type="text" name="localidad" id="localidad"/>
+				</div>
+				<div id="treinta">
+					<p><label for="nombre">Nombre:</label></p>
+					<input type="text" name="nombre" id="nombre" size="13%"/>
+					
+					<p><label for="provincia">Provincia:</label></p>
+					<select name="provincia" id="provincia">
+						<option value="0" disable>Seleccione una provincia</option>
+						<option value="1" selected>Valencia</option>
+						<option value="2" >Extremadura</option>
+						<option value="3" >Andalucía</option>
+					</select>
+					
+					<p><label for="provincia">Provincia:</label></p>
+					<select name="provincia" id="provincia">
+						<option value="0" disable>Seleccione una provincia</option>
+						<option value="1" selected>Valencia</option>
+						<option value="2" >Extremadura</option>
+						<option value="3" >Andalucía</option>
+					</select>
+				</div>
+			</div>
+			<div id="cincuenta">
+				<p><label for="dni">DNI:</label></p>
+				<input type="text" name="dni" id="dni"/>
+				
+				<p><label for="fechaNacimiento">Fecha nacimiento (dd/mm/aaaa):</label></p>
+				<input type="text" name="fechaNacimiento" id="fechaNacimiento"/>
+				
+				<p><label for="codPostal">Código Postal:</label></p>
+				<input type="text" name="codPostal" id="codPostal"/>
+				
+				<p><label for="telefono">Teléfono:</label></p>
+				<input type="text" name="telefono" id="telefono"/>
+				
+				<p><input type="reset" value="Borrar todo" name="btn_reset"/>
+				<input type="submit" value="Enviar" name="btn_submit"/></p>
+			</div>
+				
+			</form>
+		</fieldset>
+	</body>
+</html>
