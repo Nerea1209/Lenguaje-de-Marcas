@@ -1,24 +1,44 @@
-*{margin:0; padding: 0; box-sizing: border-box;}
+* {margin: 0; padding: 0; box-sizing: border-box; }
 
-div#cincuenta {
-	width: 48%;
-	margin: 1% 0 1% 1%;
-	float: left;
-}
+body, fieldset, form {padding: 0.5em; } 
 
-div#setentaycinco {
-	width:68%; 
-	margin-left: 1%;
+div.cincuenta {
+	width: 49%;
+	margin: 0 0.5%;
 	float: left;
+	border: 1px solid;
 }
-
-div#treinta {
-	width:28%; 
-	margin-left: 1%;
-	float: left;
-}
+div.izq {	width: 58%;}
+div.der {	width: 38%;}
+div.esp{width: 100%;}
+.cincuenta > div {overflow: hidden; }
+.cincuenta div div{float: left}
 
 select {width: 60%}
 select#domicilio1 {width: 25%}
-p {margin: 1% 0;}
+p {margin: 1%;}
+select#domicilio1{width: 13%; }
+#domicilio2{width: 85%; }
 
+
+h1{
+	text-align: center;
+	text-transform: uppercase;
+	background-color: #DDD;
+}
+
+.rojo{color: red;}
+.sub{text-decoration: underline;}
+fieldset{background-color: #DDD;}
+legend{background-color: white; padding: 0.1em; border: 1px solid #DDD; }
+
+p#botones{text-align: right; }
+p input{padding:0.2em; }
+
+#nombre{width: 95%;}
+#apellidos{width: 90%;}
+#fechaNacimiento{width: 50%;}
+#telefono{width: 45%;}
+#dni{width: 50%;}
+#codPostal{width: 40%;}
+#localidad{width:80%}
