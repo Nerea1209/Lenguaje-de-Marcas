@@ -1,0 +1,47 @@
+*{margin: 0; padding: 0; box-sizing: border-box; }
+
+html{font-family: sans-serif; height: 100%; }
+body{height: 100%;}
+
+h1{background: url("../imagenes/fondo1.jpg") repeat 3px; height: 120px; line-height: 120px; color: white; font-size: 2.3em; text-align: center;}
+
+ul{list-style: none; width: 100%; overflow: hidden; margin: 0 auto; background: url("../imagenes/boton-menu.jpg") repeat 3px; padding-left: 29%; }
+
+ul li{float: left; width: 15%; background: url("../imagenes/boton-menu.jpg") repeat 3px; height: 30px;}
+
+/* Si no le ponemos display: block, solo cambiará el padding de derecha e izquierda */
+ul li a{display: block; text-decoration: none; color: white; text-align: center; line-height: 30px; display: block;}
+
+ul li a:hover{background: url("../imagenes/boton-menu2.jpg") repeat 3px; color: black; }
+
+label{
+	font-weight: bold;	
+}
+
+#lateral {
+	width: 220px;
+	padding: 1em;
+	background-color: #eee;
+	float: left;
+	height: 100%;
+}
+
+h4{
+	margin: 0.5em 0;
+}
+
+#cuerpo{
+	border-left: 1px solid black;
+	float: left;
+	overflow: hidden;
+	height: 100%;
+	width: 76%;
+}
+
+#pie{
+	clear: both;
+}
+
+div{
+	border-top: 1px solid #ddd;
+}
