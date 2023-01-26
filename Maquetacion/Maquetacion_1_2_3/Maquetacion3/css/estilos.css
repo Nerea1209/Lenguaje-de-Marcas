@@ -1,0 +1,55 @@
+html {box-sizing: border-box; height: 100%; }
+* {margin: 0; padding: 0; box-sizing: inherit; }
+
+body {font-family: Verdana; text-align: center; }
+
+
+#cabecera {
+	background-color: yellow;
+	overflow: hidden;
+}
+
+#cabecera p {
+	line-height: 100px; 
+	float: left; 
+	width: 100%;
+	font-size: 12pt;
+}
+
+#cabecera img{float: left;}
+
+#cuerpo {
+	width: 100%;
+	overflow: hidden; 
+	margin: 1em 0;
+}
+
+#izquierda {
+	width: 180px;
+	font-size: 10pt;
+	background-color: red;
+	float: left; 
+	margin-right: 1em;
+}
+
+#centro {
+	font-size: 12pt;
+	text-align: justify;
+	background-color: green;
+	overflow: hidden;
+	margin-right: 20%;
+}
+
+#derecha {
+	width: 18%;
+	font-size: 10pt;
+	background-color: lightblue;
+	overflow: hidden;
+	float: right;
+}
+
+#pie {
+	font-size: 8pt;
+	background-color: brown;
+	color: yellow;
+}
