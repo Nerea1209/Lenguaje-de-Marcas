@@ -18,6 +18,10 @@ label{
 	font-weight: bold;	
 }
 
+#contenedor {
+	width: 100%;
+}
+
 #lateral {
 	width: 220px;
 	padding: 1em;
@@ -35,7 +39,6 @@ h4{
 	float: left;
 	overflow: hidden;
 	height: 100%;
-	width: 76%;
 }
 
 #pie{

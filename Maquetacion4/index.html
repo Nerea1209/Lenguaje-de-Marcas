@@ -3,62 +3,63 @@
 	<head>
 		<meta charset="utf-8"/>
 		<link rel="stylesheet" href="css/estilos.css"/>
-		<title>Menús</title>
+		<title>Formulario</title>
 	</head>
 	<body>
 	<h1>Maquetación de un formulario</h1>
 		<ul>
-			<li><a href="#">Item uno</a></li>
+			<li><a href="#">Item uno</a></li> 
 			<li><a href="#">Item dos</a></li>
 			<li><a href="#">Item tres</a></li>
 			<li><a href="#">Item cuatro</a></li>
     </ul>
-    
-    <div id="lateral">
-    	<h4>Noticias</h4>
-    	<p>Los investigadores David Baker, Demis Hassabis y John Jumper han recibido el Premio Fundación BBVA Fronteras del Conocimiento en la categoría de Biología y Biomedicina por revolucionar el estudio y el diseño de proteínas mediante la inteligencia artificial e impulsar con ello el desarrollo de nuevos tratamientos contra múltiples enfermedades. </p>
-    </div>
-    <div id="cuerpo">
-    	<h3>Formulario</h3>
-    	<div>
-    		<label for="nombre">Nombre:</label>
-    		<input type="text" name="nombre" id="nombre"/>
-    	</div>
-    	<div>
-    		<label for="email">Email:</label>
-    		<input type="text" name="email" id="email"/>
-    	</div>
-    	<div>
-    		<label for="mensaje">Mensaje:</label>
-    		<textarea name="mensaje" id="mensaje" rows="20"></textarea>
-    	</div>
-    	<div>
-    		<label>Sexo:</label>
-    		<label for="masculino">Masculino: </label>
-    		<input type="radio" name="sexo" id="masculino" value="masculino"/>
-    		<label for="femenino">Femenino: </label>
-    		<input type="radio" name="sexo" id="femenino" value="femenino"/>
-    	</div>
-    	<div>
-    		<label>Color preferido:</label>
-    		<input type="checkbox" name="color[]" id="rojo" value="1"/>
-    		<label for="rojo">Rojo</label> </br>
-    		<input type="checkbox" name="color[]" id="verde" value="2"/>
-    		<label for="verde">Verde</label> </br>
-    		<input type="checkbox" name="color[]" id="azul" value="3"/>
-    		<label for="azul">Azul</label>
-    	</div>
-    	<div>
-    		<label for="terminos">Acepto los términos:</label>
-    		<input type="checkbox" name="terminos[]" id="terminos" value="1"/>
-    	</div>
-    	<div>
-    		<input type="submit" name="enviar" value="Submit"/>
-    		<input type="reset" value="reset"/>
-    	</div>
-    </div>
-    <div id="pie">
-    	<p>Contenido exclusivo de <a href="https://maralboran.eu/">Mar de Alborán</a></p>
-    </div>
+    <div id="contenedor">
+	    <div id="lateral">
+	    	<h4>Noticias</h4>
+	    	<p>Los investigadores David Baker, Demis Hassabis y John Jumper han recibido el Premio Fundación BBVA Fronteras del Conocimiento en la categoría de Biología y Biomedicina por revolucionar el estudio y el diseño de proteínas mediante la inteligencia artificial e impulsar con ello el desarrollo de nuevos tratamientos contra múltiples enfermedades. </p>
+	    </div>
+	    <div id="cuerpo">
+	    	<h3>Formulario</h3>
+	    	<div>
+	    		<label for="nombre">Nombre:</label>
+	    		<input type="text" name="nombre" id="nombre"/>
+	    	</div>
+	    	<div>
+	    		<label for="email">Email:</label>
+	    		<input type="text" name="email" id="email"/>
+	    	</div>
+	    	<div>
+	    		<label for="mensaje">Mensaje:</label>
+	    		<textarea name="mensaje" id="mensaje" rows="20"></textarea>
+	    	</div>
+	    	<div>
+	    		<label>Sexo:</label>
+	    		<label for="masculino">Masculino: </label>
+	    		<input type="radio" name="sexo" id="masculino" value="masculino"/>
+	    		<label for="femenino">Femenino: </label>
+	    		<input type="radio" name="sexo" id="femenino" value="femenino"/>
+	    	</div>
+	    	<div>
+	    		<label>Color preferido:</label>
+	    		<input type="checkbox" name="color[]" id="rojo" value="1"/>
+	    		<label for="rojo">Rojo</label> </br>
+	    		<input type="checkbox" name="color[]" id="verde" value="2"/>
+	    		<label for="verde">Verde</label> </br>
+	    		<input type="checkbox" name="color[]" id="azul" value="3"/>
+	    		<label for="azul">Azul</label>
+	    	</div>
+	    	<div>
+	    		<label for="terminos">Acepto los términos:</label>
+	    		<input type="checkbox" name="terminos[]" id="terminos" value="1"/>
+	    	</div>
+	    	<div>
+	    		<input type="submit" name="enviar" value="Submit"/>
+	    		<input type="reset" value="reset"/>
+	    	</div>
+	    </div>
+	    <div id="pie">
+	    	<p>Contenido exclusivo de <a href="https://maralboran.eu/">Mar de Alborán</a></p>
+	    </div>
+		</div>
 	</body>
 </html>
