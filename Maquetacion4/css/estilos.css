@@ -1,50 +1,131 @@
-*{margin: 0; padding: 0; box-sizing: border-box; }
+*{
+	margin: 0; 
+	padding: 0; 
+	box-sizing: border-box; 
+}
 
-html{font-family: sans-serif; height: 100%; }
-body{height: 100%;}
+html{
+	font-family: sans-serif; 
+	height: 100%; 
+}
 
-h1{background: url("../imagenes/fondo1.jpg") repeat 3px; height: 120px; line-height: 120px; color: white; font-size: 2.3em; text-align: center;}
+body{height: 100%; }
 
-ul{list-style: none; width: 100%; overflow: hidden; margin: 0 auto; background: url("../imagenes/boton-menu.jpg") repeat 3px; padding-left: 29%; }
+h1{
+	background: url("../imagenes/fondo1.jpg") repeat 3px; 
+	height: 120px; 
+	line-height: 120px; 
+	color: white; 
+	font-size: 2.3em; 
+	text-align: center;
+}
 
-ul li{float: left; width: 15%; background: url("../imagenes/boton-menu.jpg") repeat 3px; height: 30px;}
+ul{
+	list-style: none; 
+	width: 100%; 
+	overflow: hidden; 
+	margin: 0 auto; 
+	background: url("../imagenes/boton-menu.jpg") repeat 3px; 
+	padding-left: 29%; 
+}
+
+ul li{
+	float: left; 
+	width: 15%; 
+	background: url("../imagenes/boton-menu.jpg") repeat 3px; 
+	height: 30px;
+}
 
 /* Si no le ponemos display: block, solo cambiará el padding de derecha e izquierda */
-ul li a{display: block; text-decoration: none; color: white; text-align: center; line-height: 30px; display: block;}
+ul li a{
+	display: block; 
+	text-decoration: none; 
+	color: white; 
+	text-align: center; 
+	line-height: 30px; 
+	display: block;
+}
 
 ul li a:hover{background: url("../imagenes/boton-menu2.jpg") repeat 3px; color: black; }
 
-label{
-	font-weight: bold;	
+#contenedor{width: 100%; }
+
+#centro{
+	background-color: #ccc; 
+	overflow: hidden; 
 }
 
-#contenedor {
-	width: 100%;
-}
-
-#lateral {
+#noticias{
 	width: 220px;
-	padding: 1em;
-	background-color: #eee;
 	float: left;
-	height: 100%;
+	padding: 0.5em; 
 }
 
-h4{
-	margin: 0.5em 0;
+#principal{
+	overflow: hidden; 
+	background-color: white; 
+	text-align: justify; 
+	border-left: 2px solid black; 
 }
 
-#cuerpo{
-	border-left: 1px solid black;
-	float: left;
+h3, h4, p{margin: 0.5em;}
+
+#centro form{padding: 0.5em; }
+
+#centro form > div{
+	border-top: 1px solid #ccc;
+	padding: 0.75em;
 	overflow: hidden;
-	height: 100%;
+}
+
+.izq{
+	width: 40%;
+	float: left;
+	text-align: right;
+}
+
+.der{
+	width: 60%;
+	float: left;
+	text-align: left;
+	padding-left: 0.25em;
+}
+
+.izq label{font-weight: bold; }
+
+#botones{
+	width: 60%;
+	float: right;
+	padding-left: 0.75em;
 }
 
 #pie{
-	clear: both;
+	color: white;
+	background-color: black;
+	text-align: center;
+	padding: 0.5em;
 }
 
-div{
-	border-top: 1px solid #ddd;
+#pie a{color: #99f; }
+
+#pie a:hover{color: #9f9; }
+
+form input[type="text"]{width: 40%; }
+
+form textarea{
+	width: 40%; 
+	height: 250px; 
+	resize: none;
 }
+
+
+
+
+
+
+
+
+
+
+
+
