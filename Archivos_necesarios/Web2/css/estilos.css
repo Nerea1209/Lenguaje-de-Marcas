@@ -1,0 +1,45 @@
+*{margin: 0; padding: 0; box-sizing: border-box; }
+
+body{background-image: url("../Imagenes/fondo.jpg"); background-size: cover;}
+
+#contenedor{ width: 830px; margin: 0 auto; }
+
+#cabecera{background-image: url("../Imagenes/cabecera.jpg"); }
+
+#menu {margin-top: -0.3em;}
+#menu ul{list-style: none; width: 830px; overflow: hidden; margin: 0 auto; background: url("../Imagenes/fondo_menu.jpg") repeat 3px;}
+#menu ul li{float: left; background: url("../Imagenes/fondo_menu.jpg") repeat 3px; height: 33px; }
+/* Si no le ponemos display: block, solo cambiará el padding de derecha e izquierda */
+#menu ul li a{display: block; text-decoration: none; color: white; text-align: center; line-height: 30px; display: block; padding: 0 0.5em; font-weight: bold;}
+#menu ul li a:hover{color: #0f340b; background-color: #cce2bc}
+
+#acceso{background-color: #0f340b; padding: 0.25em 0; width: 830px;}
+#acesso form{background-color: #175512; overflow: hidden; color: white;}
+#acesso form div{width: 33.3333%; float: left; padding: 0.5em 0.75em; overflow: hidden;}
+#acceso form a{font-size: 12px; color:white}
+#acceso form label, #acesso form input{width:40%; float: left; margin: 0 5%;}
+
+#imagen img{width: 100%;}
+
+#centro{background-color: #175512; overflow: hidden; padding: 1em 0.25em;}
+#centro div#izq{width: 60%; float: left; margin-right: 2%;}
+#centro div#der{width: 38%; float: left;}
+#centro h2{color: white; background-color: #0f340f; border-top-right-radius: 10px; padding: 0.25em;}
+
+#pie{height: 66px; background-image: url("../Imagenes/fondo_pie.jpg"); padding: 1em; text-align: center; font-size: 0.9em; color:white; line-height: 1.5em;}
+#pie a{color: white;}
+
+.amarillo{color: yellow;}
+/* #cce2bc, #0f340b, #175512, #33a92e*/
+
+#formulario div{background-color: #c3e3be; border-bottom: #0f340b solid 1px; padding: 0.5em; overflow: hidden;}
+#formulario div span{display:block}
+#formulario input[type="text"], #formulario input[type="password"]{width: 50%; float: right;} 
+.negro{width: 38%; float: left;}
+
+#apuestas img{width: 100%;}
+#publicidad h6{color: white;}
+
+#botones{padding: 0.5em; background-color: #0f340b;}
+#botones input{border: none; padding: 0.25em;}
+.verde{color: white; background-color: #33a92e}
