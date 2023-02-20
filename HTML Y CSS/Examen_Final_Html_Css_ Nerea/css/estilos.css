@@ -1,0 +1,275 @@
+html{box-sizing: border-box; }
+*{margin: 0; padding: 0; box-sizing: inherit; }
+
+#contenedor{
+	width: 90%;
+	margin: 0 auto;
+}
+
+#cabecera{background-color: #1A2E35; }
+
+#menu{
+	background-color: #1A2E35; 
+	overflow: hidden;
+}
+
+#menu ul{
+	list-style: none;
+}
+
+#menu ul li{
+	width: 10%; 
+	float: left;
+}
+
+#menu ul li a{
+	display: block;
+	text-align: center;
+	color: #7B8E9C;
+	text-decoration: none;
+	line-height: 15px;
+	padding: 0.5em 0;
+}
+
+#menu ul li a img{
+	padding-bottom: 0.2em;
+}
+
+#menu ul li a:hover{
+	display: block;
+	text-align: center;
+	color: #7B8E9C;
+	text-decoration: none;
+	line-height: 15px;
+	padding: 0.5em 0;
+	background-color: #111F25; 
+}
+
+/* Falta cambiar imagen a b cuando hacemos hover*/
+
+
+#publicidad img{
+	position: relative;
+	top: 50%;
+	left: 50%;
+	margin-left: -150px;
+/*	margin-top: -25px;*/
+}
+
+#centro{background-color: #F5F4F9; overflow: hidden; padding: 1em 2em;}
+
+#centro h3{
+	padding: 0.4em;
+}
+
+#centro #izq{
+	float: left;
+	width: 48%;
+	margin: 0 1%;
+}
+
+#centro #subidones ul{
+	list-style: none;
+}
+
+#centro #subidones li a{
+	display: block;
+	text-decoration: none;
+	color: black;
+	overflow: hidden;
+	line-height: 35px;
+	border-bottom: 1px solid #ccc;
+	padding: 0.4em;
+}
+
+#centro #subidones li a#esp{
+	border-bottom: none;
+}
+
+#centro #subidones div.mc{
+	width: 9%;
+	margin-right: 1%;
+	float: left;
+	background-color: green;
+	display:block;
+	text-align: center;
+	border-radius: 6%;
+	color: white;
+}
+
+#centro #subidones div.aleña{
+	width: 69%;
+	margin-left: 1%;
+	float: left;
+	overflow: hidden;
+}
+
+#centro #subidones div.aleña img{
+	float:left;
+}
+
+#centro #subidones div.aleña p.titulo{
+	margin-left: 0.5em;
+	float:left;
+	font-size: 14px;
+	line-height: 17.5px;
+}
+
+#centro #subidones div.aleña p.titulo span.numeros{
+	color: #ccc;
+	font-weight: normal;
+}
+
+#centro #subidones div.puntos{
+	width: 19%;
+	margin-left: 1%;
+	float: right;
+	color: green;
+	font-weight: normal;
+}
+
+#centro #bajones ul{
+	list-style: none;
+}
+
+#centro #bajones li a{
+	display: block;
+	text-decoration: none;
+	color: black;
+	overflow: hidden;
+	line-height: 35px;
+	border-bottom: 1px solid #ccc;
+	padding: 0.4em;
+}
+
+#centro #bajones li a#esp{
+	border-bottom: none;
+}
+
+#centro #bajones div.mc{
+	width: 9%;
+	margin-right: 1%;
+	float: left;
+	background-color: green;
+	display:block;
+	text-align: center;
+	border-radius: 6%;
+	color: white;
+}
+
+#centro #bajones div.aleña{
+	width: 69%;
+	margin-left: 1%;
+	float: left;
+	overflow: hidden;
+}
+
+#centro #bajones div.aleña img{
+	float:left;
+}
+
+#centro #bajones div.aleña p.titulo{
+	margin-left: 0.5em;
+	float:left;
+	font-size: 14px;
+	line-height: 17.5px;
+}
+
+#centro #bajones div.aleña p.titulo span.numeros{
+	color: #ccc;
+	font-weight: normal;
+}
+
+#centro #bajones div.neg{
+	width: 19%;
+	margin-left: 1%;
+	float: right;
+	color: red;
+	font-weight: normal;
+}
+
+#centro #visitados img{
+	width: 90%;
+	margin: 0 5%;
+}
+
+#centro #buscados img{
+	width: 90%;
+	margin: 0 5%;
+}
+
+.blanco{
+	background-color: white;
+	font-weight: bold;
+	border-radius: 2%;
+	margin: 1em 0;
+	padding: 0.5em;
+}
+
+
+#pie{
+	background-color: black;
+	color: #517985;
+	padding: 0.5em 0;
+}
+
+#pie p{
+	padding: 1em 40%;
+}
+
+#pie p span#white{
+	color: white;
+}
+
+#pie img{
+	position: relative;
+	top: 50%;
+	left: 50%;
+	margin-left: -153.5px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="css/estilos.css"?>
+<persona>
+	<nombre>Elsa</nombre>
+	<mujer/>
+	<fecha_de_nacimiento>
+		<dia>18</dia>
+		<mes>6</mes>
+		<year>1996</year>
+	</fecha_de_nacimiento>
+	<ciudad>Pamplona</ciudad>
+</persona>

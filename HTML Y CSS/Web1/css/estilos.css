@@ -1,0 +1,212 @@
+html{box-sizing: border-box; }
+*{margin: 0; padding: 0; box-sizing: inherit; }
+
+body{background-color: #fbf9e4; }
+
+#cabecera{
+	height: 116px; 
+	background-image: url("../Imagenes/fondo.jpg");
+	text-align: center;
+	position: relative;
+}
+/*
+Haciéndolo así se centra el nombre respecto a toda la página
+Pero lo que se nos pide es centrarlo sobre lo restante con el logo
+#logo{
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+*/
+
+#logo{
+	float: left; 
+	margin-left: 1.25em; 
+}
+
+#menu{
+	height: 50px;
+	background-color: #1a6900;
+	overflow: hidden;
+}
+
+#menu ul{
+	float: left; 
+	overflow: hidden;
+	list-style: none; 
+}
+
+#menu ul li{
+	float: left;
+	border-right: 1px solid black;
+}
+
+#menu ul li a{
+	display: block;
+	text-decoration: none;
+	color: white;
+	padding: 0 0.5em;
+	line-height: 50px;
+}
+
+#menu span{
+	float: right; 
+	line-height: 50px;
+	color: white;
+	margin-right: 1em;
+}
+
+#menu span a{
+	text-decoration: none;
+	color: white;
+}
+
+#enlace1{
+	font-size: 1.25em;
+	margin-left: 1.75em;
+	font-weight: bold;
+}
+
+#contenido{
+	padding-top: 2em;
+	overflow: hidden;
+}
+
+#izq{
+	width: 25%;
+	float: left;
+	margin-right: 2em;
+	padding: 0 0.75em;
+}
+
+#der{
+	overflow: hidden;
+}
+
+#pie{
+	height: 50px;
+	margin: 0 0.75em;
+	background-color: #1a6900;
+}
+
+#puntos{
+	height: 16px;
+	background-image: url("../Imagenes/tres_puntos.jpg");
+}
+
+#der h2{margin: 0.75em 0 1.75em 0; }
+
+.blanco_izq{
+	background-color: white;
+	padding: 0.5em;
+	border-radius: 5px;
+	border: 1px solid #ccc;
+	margin-bottom: 1em;
+}
+
+.blanco_izq h3{display: inline; }
+.blanco_izq img{vertical-align: 8px; }
+
+#izq form{
+	border-top: 1px solid #ccc; 
+	margin: 0.5em;
+	padding: 1.25em;
+}
+
+#izq input{
+	width: 100%;
+	border-radius: 5px;
+	padding: 0.5em;
+	margin-top: 0.5em;
+}
+
+#izq #recordar{width: 10%; }
+
+
+#izq form p {overflow: hidden; }
+
+#izq #entrar{
+	width: 20%;
+	float: left;
+	font-size: 0.8em;
+	margin-right: 1%;
+	background-color:#33a92e;
+	color: white;
+	border: none;
+}
+
+#izq #olvidaste{
+	width: 79%;
+	float: left;
+	font-size: 0.8em;
+	background-color: #1a6900;
+	color: white;
+	border: none;
+}
+
+.blanco{
+	height: 60px;
+	border-radius: 5px;
+	width: 45%;
+	margin: 1em 0;
+	border: 1px solid #ccc;
+}
+
+.blanco a{
+	padding-left: 55px;
+	line-height: 60px;
+	display: block;
+	text-decoration: none;
+	color: black;
+}
+
+.blanco a:hover{color: white; }
+
+#adm{background: white url("../Imagenes/adminis.jpg") no-repeat 0 center}
+#adm:hover{background: #1a6900 url("../Imagenes/adminis_neg.jpg") no-repeat 0 center}
+
+#bio{background: white url("../Imagenes/biologia.jpg") no-repeat 0 center}
+#bio:hover{background: #1a6900 url("../Imagenes/biologia_neg.jpg") no-repeat 0 center}
+
+#cla{background: white url("../Imagenes/clasicas.jpg") no-repeat 0 center}
+#cla:hover{background: #1a6900 url("../Imagenes/clasicas_neg.jpg") no-repeat 0 center}
+
+#eco{background: white url("../Imagenes/economia.jpg") no-repeat 0 center}
+#eco:hover{background: #1a6900 url("../Imagenes/economia_neg.jpg") no-repeat 0 center}
+
+#tec{background: white url("../Imagenes/tecnologia.jpg") no-repeat 0 center}
+#tec:hover{background: #1a6900 url("../Imagenes/tecnologia_neg.jpg") no-repeat 0 center}
+
+#rel{background: white url("../Imagenes/religion.jpg") no-repeat 0 center}
+#rel:hover{background: #1a6900 url("../Imagenes/religion_neg.jpg") no-repeat 0 center}
+
+#moo{background: white url("../Imagenes/moodle.jpg") no-repeat 0 center}
+#moo:hover{background: #1a6900 url("../Imagenes/moodle_neg.jpg") no-repeat 0 center}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

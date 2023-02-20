@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="es">
+	<head>
+		<title>Web 1</title>
+		<meta charset="UTF-8"/>
+		<link rel="shortcut icon" href="Imagenes/logo.jpg"/>
+		<link rel="stylesheet" href="css/estilos.css"/>
+	</head>
+	<body>
+		<div id="contenedor">
+			<div id="cabecera">
+				<img id="logo" src="Imagenes/logo.jpg" alt="Logo" title="Logo"/>
+				<img src="Imagenes/nombre.jpg" alt="Nombre" title="Nombre"/>
+			</div>
+			<div id="menu">
+				<ul>
+					<li><a id="enlace1" href="#">IES Mar de Alborán</a></li>
+					<li><a href="#">Español - Internacional (es)</a></li>
+				</ul>
+				<span>Usted no se ha identificado <a href="#">(Entrar)</a></span>
+			</div>
+			<div id="contenido">
+				<div id="izq">
+					<div class="blanco_izq">
+						<img src="Imagenes/usuario.jpg" alt="Usuario" title="Usuario"/>
+						<h3>ENTRAR</h3>
+						<form action="index.html" method="post">
+							<!-- Nombre de usuario -->
+							<label for="usuario">Nombre de Usuario</label><br/>
+							<input type="text" id="usuario" name="usuario"/><br/>
+							<!-- Contraseña -->
+							<label for="clave">Contraseña</label><br/>
+							<input type="password" id="clave" name="clave"/><br/>
+							<!-- Recordar -->
+							<input type="checkbox" id="recordar" name="recordar"/>
+							<label for="recordar">Recordar nombre de usuario</label><br/>
+							<p>
+								<input id="entrar" type="submit" value="Entrar" name="btnEntrar"/>
+								<input id="olvidaste" type="submit" value="¿Has extraviado la contraseña?" 
+								name="btnOlvidaste"/>
+							</p>
+						</form>
+					</div>
+					<div class="blanco_izq">
+						<img src="Imagenes/calendario.jpg" alt="Calendario" title="Calendario"/>
+						<h3>CALENDARIO</h3>
+					</div>
+					<div class="blanco_izq">
+						<img src="Imagenes/navegacion.jpg" alt="Navegación" title="Navegación"/>
+						<h3>NAVEGACIÓN</h3>
+					</div>
+				</div>
+				<div id="der">
+					<div id="puntos">
+					</div>
+					<h2>Cursos</h2>
+					
+					<div class="blanco" id="adm">
+						<a href="#">Departamento de Administrativo</a>
+					</div>
+					
+					<div class="blanco" id="bio">
+						<a href="#">Departamento de Biología</a>
+					</div>
+					
+					<div class="blanco" id="cla">
+						<a href="#">Departamento de Clásicas</a>
+					</div>
+					
+					<div class="blanco" id="eco">
+						<a href="#">Departamento de Economía</a>
+					</div>
+					
+					<div class="blanco" id="tec">
+						<a href="#">Departamento de Tecnología</a>
+					</div>
+					
+					<div class="blanco" id="rel">
+						<a href="#">Departamento de Religión</a>
+					</div>
+					
+					<div class="blanco" id="moo">
+						<a href="#">MOODLE 2.6</a>
+					</div>
+				</div>
+			</div>
+			<div id="pie">
+			</div>
+		</div>
+	</body>
+</html>

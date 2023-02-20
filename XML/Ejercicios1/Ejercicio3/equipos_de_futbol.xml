@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<equipos_de_futbol>
+	<equipo_de_futbol>
+		<nombre>Real Madrid</nombre>
+		<ciudad>Madrid</ciudad>
+		<entrenador>Carlo Ancelotti</entrenador> <!-- No hay que ponerse, pero a Carleto se pone :) -->
+		<jugadores>
+			<jugador posicion="portero">
+				<nombre>Thibaut Courtois</nombre>
+				<nacionalidad>Belga</nacionalidad>
+			</jugador>
+			<jugador posicion="centrocampista">
+				<nombre>Luka Modric</nombre>
+				<nacionalidad>Croata</nacionalidad>
+			</jugador>
+		</jugadores>
+	</equipo_de_futbol>
+	<equipo_de_futbol>
+		<nombre>Málaga CF</nombre>
+		<ciudad>Málaga</ciudad>
+		<entrenador/>
+		<jugadores>
+			<jugador posicion="portero">
+				<nombre>Manolo Reina</nombre>
+				<nacionalidad>Española</nacionalidad>
+			</jugador>
+			<jugador posicion="delantero">
+				<nombre>Rubén Castro</nombre>
+				<nacionalidad>Española</nacionalidad>
+			</jugador>
+		</jugadores>
+	</equipo_de_futbol>
+</equipos_de_futbol>
