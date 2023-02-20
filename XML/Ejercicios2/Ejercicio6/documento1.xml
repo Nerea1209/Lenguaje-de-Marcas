@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?> <!-- Falta encoding="UTF-8" -->
+<documento>
+	<p>Mi Primer <destacar importancia="1"> <!-- Tiene que estar entre comillas -->documento
+	XML</destacar></p>  <!-- ] El cierre no es correcto -->
+	<p>Comienza con la etiqueta <!-- No se puede usar < hay que usar la entidad --> &lt;documento&gt;</p>
+	<p>A continuacion colocamos un elemento sin
+	contenido</p>
+	<imagen fichero="imagen.gif"/> <!-- No estaba cerrada -->
+	<!-- Pero yo lo pondría: -->
+	<img src="imagen.gif"/>
+</documento>
+

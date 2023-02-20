@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?> <!-- Falta encoding="UTF-8" -->
+<libros>
+	<libro id="quijote">
+		<titulo>El Quijote</titulo>
+		<autor nombre="cervantes"/> 
+		<!-- Hay que cerrar autor -->
+		<!-- No pueden haber atributos repetidos --> 
+		<!-- Los valores tienen que estar entre comillas -->
+		<descripcion>Es el mejor <!-- Eliminamos < --> libro de
+		cervantes.</descripcion>
+	</libro> <!-- No se cierra con ] sino con > -->
+</libros> <!-- Se distingue entre minusculas y mayusculas -->
