@@ -24,7 +24,7 @@
 				<nombre>Juliette Lewis</nombre>
 			</interprete>
 			<interprete>
-				<nombre>Sean William Scott.</nombre>
+				<nombre>Sean William Scott</nombre>
 			</interprete>
 		</interpretes>
 		<descripcion>
@@ -49,37 +49,37 @@
 		<director>James Cameron</director>
 		<interpretes>
 			<interprete>
-				<nombre>Will Ferrell</nombre>
+				<nombre>Sam Worthington</nombre>
 			</interprete>
 			<interprete>
-				<nombre>Luke Wilson</nombre>
+				<nombre>Zoe Saldaña</nombre>
 			</interprete>
 			<interprete>
-				<nombre>Vince Vaughn</nombre>
+				<nombre>Sigourney Weaver</nombre>
 			</interprete>
 			<interprete>
-				<nombre>Jeremy Piven</nombre>
+				<nombre>Michelle Rodriguez</nombre>
 			</interprete>
 			<interprete>
-				<nombre>Juliette Lewis</nombre>
+				<nombre>Stephen Lang</nombre>
 			</interprete>
 			<interprete>
-				<nombre>Sean William Scott.</nombre>
+				<nombre>Michelle Yeoh</nombre>
 			</interprete>
 		</interpretes>
 		<descripcion>
-			Mitch, Frank y Beanie son tres amigos treintañeros cuyas vidas no son exactamente lo que
-			esperaban. Mitch tiene una novia ninfómana que se mete en la cama con el primero
-			que agarra. Frank se ha casado y su matrimonio nada tiene que ver con
-			las juergas salvajes que organizaban años atrás. Y Beanie es un padre de familia que se
-			muere por recuperar su alocada juventud. Pero las cosas cambian cuando Beanie sugiere
-			que creen su propia fraternidad, en la nueva casa que Mitch tiene junto al campus de la
-			universidad. Una ocasión para revivir tiempos gloriosos, hacer nuevos amigos y de volver
-			a sus viejas, salvajes y desmadradas juergas de estudiantes.
+			Entramos en el mundo Avatar de la mano de Jake Sully, un ex-Marine en silla de ruedas, 
+			que ha sido reclutado para viajar a Pandora, donde existe un mineral raro y muy preciado 
+			que puede solucionar la crisis energética existente en la Tierra.
 		</descripcion>
-		<a href="http://www.oldschool-themovie.com/"></a>
-		<genero>Comedia</genero>
-		<publico>Mayores de 16 años</publico>
-		<fichero_grafico></fichero_grafico>
+		<a href="https://es.wikipedia.org/wiki/Avatar_(pel%C3%ADcula)"></a>
+		<generos>
+			<genero>Acción</genero>
+			<genero>Animación</genero>
+			<genero>Ciencia ficción</genero>
+			<genero>Aventura</genero>
+			<genero>Épica</genero>
+		</generos>
+		<publico>Mayores de 13 años</publico>
 	</peli>
 </cartelera>
