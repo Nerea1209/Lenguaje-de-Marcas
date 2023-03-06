@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE datos SYSTEM "datos_personales.dtd">
+<datos>
+	<persona>
+		<nombre>Nerea</nombre>
+		<direccion>Pje. Fray Luís de León nº98</direccion>
+		<edad>19</edad>
+	</persona>
+	<persona>
+		<nombre>Juan</nombre>
+		<direccion>Avenida Andalucía</direccion>
+		<edad>35</edad>
+	</persona>
+</datos>

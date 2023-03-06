@@ -1,0 +1,6 @@
+<!ELEMENT datos (persona+)>
+<!ELEMENT persona (nombre, direccion, (edad|anyo_nac))>
+<!ELEMENT nombre (#PCDATA)>
+<!ELEMENT direccion (#PCDATA)>
+<!ELEMENT edad (#PCDATA)>
+<!ELEMENT anyo_nac (#PCDATA)>
