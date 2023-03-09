@@ -3,4 +3,4 @@
  <!ELEMENT persona EMPTY>
  <!ATTLIST persona nombre CDATA #IMPLIED>
 ]>
-<persona dni= "03141592E" />
+<persona nombre= "03141592E" />

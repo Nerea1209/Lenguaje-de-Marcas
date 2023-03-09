@@ -1,0 +1,6 @@
+<!ELEMENT ligaFutbol (resultado*)>
+<!ELEMENT resultado(equipoLocal, equipoVisitante)>
+<!ELEMENT equipoLocal (#PCDATA)>
+<!ATTLIST equipoLocal goles CDATA>
+<!ELEMENT equipoVisitante (#PCDATA)>
+<!ATTLIST equipoVisitante goles CDATA>
