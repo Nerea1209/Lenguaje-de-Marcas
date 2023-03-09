@@ -5,7 +5,7 @@
  <!ELEMENT de (#PCDATA)>
  <!ELEMENT para (#PCDATA)>
  <!ELEMENT hora (#PCDATA)>
- <!ELEMENT texto ((strong | #PCDATA)*)>
+ <!ELEMENT texto (#PCDATA | strong)*>
  <!ELEMENT strong (#PCDATA)>
 ]>
 <mensajes>
