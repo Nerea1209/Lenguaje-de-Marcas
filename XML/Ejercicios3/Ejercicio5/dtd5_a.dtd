@@ -1,6 +1,0 @@
-<!ELEMENT ligaFutbol (resultado*)>
-<!ELEMENT resultado(equipoLocal, golesEquipoLocal, equipoVisitante, golesEquipoVisitante)>
-<!ELEMENT equipoLocal (#PCDATA)>
-<!ELEMENT golesEquipoLocal (#PCDATA)>
-<!ELEMENT equipoVisitante (#PCDATA)>
-<!ELEMENT golesEquipoVisitante (#PCDATA)>
