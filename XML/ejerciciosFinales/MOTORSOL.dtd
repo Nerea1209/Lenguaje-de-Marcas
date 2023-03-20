@@ -1,0 +1,12 @@
+<!ELEMENT motorsol (motor*)>
+<!ELEMENT motor (piezas, tipo)>
+<!ELEMENT piezas (pieza+)>
+<!ELEMENT pieza (#PCDATA)>
+<!ELEMENT tipo (fabricado_por, empleados)>
+<!ELEMENT fabricado_por (#PCDATA)>
+<!ELEMENT empleados (responsable, empleado+)>
+<!ELEMENT responsable (nombre)>
+<!ELEMENT nombre (#PCDATA)>
+<!ELEMENT empleado (nombre, cargoFamiliar?)>
+<!ELEMENT cargoFamiliar (familiar+)>
+<!ELEMENT familiar (nombre)>
