@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<buzon_correos>
+    <cartas>
+        <carta>
+            <destinatario>Pepe</destinatario>
+        </carta>
+        <carta>
+            <destinatario>Lucía</destinatario>
+        </carta>
+    </cartas>
+    <paquetes>
+        <paquete>
+            <destinatario>Eduardo</destinatario>
+        </paquete>
+    </paquetes>
+</buzon_correos>
