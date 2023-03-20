@@ -1,0 +1,11 @@
+<!ELEMENT banco (sucursal*)>
+<!ELEMENT sucursal (cuentaCorriente*)>
+<!ATTLIST sucursal id ID #REQUIRED>
+<!ELEMENT cuentaCorriente (cliente+, domiciliaciones?)>
+<!ATTLIST cuentaCorriente id ID #REQUIRED>
+<!ELEMENT cliente (privilegios, prestamos?)>
+<!ATTLIST cliente nif CDATA #REQUIRED>
+<!ELEMENT privilegios (#PCDATA)>
+<!ELEMENT prestamos (prestamo+)>
+<!ELEMENT prestamo (#PCDATA)>
+<!ELEMENT domiciliaciones (#PCDATA)>
