@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<banco>
+    <sucursal id="sucursal1">
+        <cuentaCorriente id="c1">
+            <cliente nif="165494531c">
+                <privilegios>Titular</privilegios>
+                <prestamos>
+                    <prestamo>5842.355€</prestamo>
+                </prestamos>
+            </cliente>
+            <cliente nif="654894894h">
+                <privilegios>No titular</privilegios>
+            </cliente>
+        </cuentaCorriente>
+        <cuentaCorriente id="c2">
+            <cliente nif="5988546j">
+                <privilegios>Titular</privilegios>
+            </cliente>
+            <domiciliaciones>sfjkd</domiciliaciones>
+        </cuentaCorriente>
+
+    </sucursal>
+</banco>
