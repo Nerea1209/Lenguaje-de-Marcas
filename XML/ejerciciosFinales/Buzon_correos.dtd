@@ -1,0 +1,6 @@
+<!ELEMENT buzon_correos (cartas, paquetes)>
+<!ELEMENT cartas (carta*)>
+<!ELEMENT carta (destinatario)>
+<!ELEMENT destinatario (#PCDATA)>
+<!ELEMENT paquetes (paquete*)>
+<!ELEMENT paquete (destinatario)>
