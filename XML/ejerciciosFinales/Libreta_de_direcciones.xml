@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE Libreta_de_direcciones SYSTEM "Libreta_de_direcciones.dtd">
 <Libreta_de_direcciones>
     <usuario>
         <nombre>Juan Carlos</nombre>
