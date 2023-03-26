@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE motorsol SYSTEM "MOTORSOL.dtd">
+<motorsol>
+    <motor>
+        <piezas>
+            <pieza>sakdhsiouhf</pieza>
+        </piezas>
+        <tipo>
+            <fabricado_por>sdfsdf</fabricado_por>
+            <empleados>
+                <responsable>
+                    <nombre>fsdfdf</nombre>
+                </responsable>
+                <empleado>
+                    <nombre>jujbu</nombre>
+                    <cargoFamiliar>
+                        <familiar>
+                            <nombre>kehgoiehrg</nombre>
+                        </familiar>
+                    </cargoFamiliar>
+                </empleado>
+            </empleados>
+        </tipo>
+    </motor>
+</motorsol>

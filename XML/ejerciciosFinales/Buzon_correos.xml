@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE buzon_correos SYSTEM "Buzon_correos.dtd">
+<buzon_correos>
+    <cartas>
+        <carta>
+            <destinatario>Pepe</destinatario>
+        </carta>
+        <carta>
+            <destinatario>Lucía</destinatario>
+        </carta>
+    </cartas>
+    <paquetes>
+        <paquete>
+            <destinatario>Eduardo</destinatario>
+        </paquete>
+    </paquetes>
+</buzon_correos>

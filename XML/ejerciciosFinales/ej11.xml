@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE Libro [
+<!ELEMENT Libro (Titulo, Contenido, Copyright)>
+<!ATTLIST Libro id CDATA #REQUIRED>
+<!ELEMENT Titulo (#PCDATA)>
+<!ELEMENT Contenido (Capitulo, Separacion?)+>
+<!ELEMENT Capitulo (Tema, Seccion+)>
+<!ATTLIST Capitulo materia CDATA #IMPLIED>
+<!ELEMENT Tema (#PCDATA)>
+<!ELEMENT Seccion (#PCDATA)>
+<!ATTLIST Seccion apartados CDATA #REQUIRED dificil CDATA #IMPLIED>
+<!ELEMENT Separacion EMPTY>
+<!ELEMENT Copyright (#PCDATA)> 
+]>
+
+<Libro id="libro1">
+    <Titulo>La celestina</Titulo>
+    <Contenido>
+        <Capitulo>
+            <Tema>Felicidad</Tema>
+            <Seccion apartados="7">Sección 1</Seccion>
+            <Seccion apartados="3" dificil="sí">Sección 2</Seccion>
+        </Capitulo>
+        <Separacion />
+    </Contenido>
+    <Copyright>Sí</Copyright>
+</Libro>

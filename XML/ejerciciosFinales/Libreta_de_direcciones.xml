@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE Libreta_de_direcciones SYSTEM "Libreta_de_direcciones.dtd">
+<Libreta_de_direcciones>
+    <usuario>
+        <nombre>Juan Carlos</nombre>
+        <edad>20</edad>
+        <telefono>6596874354</telefono>
+        <direccion>kjfehfwhsdklj</direccion>
+    </usuario>
+    <usuario>
+        <nombre>María</nombre>
+        <edad>43</edad>
+        <telefono>546554684</telefono>
+        <direccion>askjdbhksjfh</direccion>
+    </usuario>
+</Libreta_de_direcciones>

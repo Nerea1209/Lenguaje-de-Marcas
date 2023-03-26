@@ -1,0 +1,6 @@
+<!ELEMENT Libreta_de_direcciones (usuario*)>
+<!ELEMENT usuario (nombre, edad, telefono, direccion)>
+<!ELEMENT nombre (#PCDATA)>
+<!ELEMENT edad (#PCDATA)>
+<!ELEMENT telefono (#PCDATA)>
+<!ELEMENT direccion (#PCDATA)>
