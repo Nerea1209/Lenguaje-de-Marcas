@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE biblioteca SYSTEM "examen.dtd">
+<biblioteca>
+    <libros>
+        <libro isbn="_1-55655-767-6" escritores="_23456788P _23456787G" id_editorial="McGraw-Hill">
+            <titulo>Fundamentos de bases de datos</titulo>
+            <precio moneda="euro">40</precio>
+            <fecha_publicacion>2003</fecha_publicacion>
+            <revisiones>
+                <revision revisor="_23456789N">
+                    <valoracion>8.5</valoracion>
+                    <comentario>Es un libro de texto básico</comentario>
+                </revision>
+            </revisiones>
+        </libro>
+        <libro isbn="_123456789" escritores="_23456788P _12345678E" id_editorial="Anaya">
+            <titulo>Matemáticas 1</titulo>
+            <precio moneda="euro">35</precio>
+            <fecha_publicacion>1996</fecha_publicacion>
+            <revisiones>
+                <revision revisor="_23456788P">
+                    <valoracion>5</valoracion>
+                    <comentario>Tiene muchos problemas</comentario>
+                </revision>
+            </revisiones>
+        </libro>
+        <libro isbn="_987654321" escritores="_12345678E" id_editorial="Edi3">
+            <titulo>Romeo y Julieta</titulo>
+            <precio moneda="euro">67</precio>
+            <fecha_publicacion>1963</fecha_publicacion>
+            <revisiones>
+                <revision revisor="_23456788P">
+                    <valoracion>9</valoracion>
+                    <comentario>Una historia de amor preciosa</comentario>
+                </revision>
+                <revision revisor="_23456787G">
+                    <valoracion>6</valoracion>
+                </revision>
+                <revision revisor="_12345678E">
+                    <valoracion>8</valoracion>
+                    <comentario>Me encanta</comentario>
+                </revision>
+            </revisiones>
+        </libro>
+    </libros>
+    <autores>
+        <autor nif="_23456788P">
+            <nombre>Abraham</nombre>
+            <apellidos>Silberschatz</apellidos>
+            <email>silbers@hotmail.com</email>
+        </autor>
+        <autor nif="_23456787G">
+            <nombre>Henry</nombre>
+            <apellidos>Korth</apellidos>
+            <email>korth@hotmail.com</email>
+        </autor>
+        <autor nif="_23456789N">
+            <nombre>James</nombre>
+            <apellidos>Smith</apellidos>
+            <email></email>
+        </autor>
+        <autor nif="_12345678E">
+            <nombre>Williams</nombre>
+            <apellidos>Shakespeare</apellidos>
+            <email>willy@gmail.com</email>
+        </autor>
+    </autores>
+    <editoriales>
+        <editorial nombre_editorial="McGraw-Hill">
+            <oficina>Av. Santander s/n</oficina>
+            <web>http://www.mcgrawhill.es.</web>
+        </editorial>
+        <editorial nombre_editorial="Anaya">
+            <oficina>Av. Andalucia 44</oficina>
+            <web>http://www.anaya.es.</web>
+        </editorial>
+        <editorial nombre_editorial="Edi3">
+            <oficina>Calle Ruben Darío 7</oficina>
+            <web>http://www.edi3.es.</web>
+        </editorial>
+    </editoriales>
+</biblioteca>

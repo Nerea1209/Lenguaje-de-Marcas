@@ -1,0 +1,29 @@
+<!ELEMENT biblioteca (libros,autores,editoriales)>
+<!-- Libros -->
+<!ELEMENT libros (libro+)>
+<!ELEMENT libro (titulo, precio, fecha_publicacion, revisiones)>
+<!ATTLIST libro isbn ID #REQUIRED>
+<!ELEMENT titulo (#PCDATA)>
+<!ELEMENT precio (#PCDATA)>
+<!ATTLIST precio moneda (euro) #REQUIRED>
+<!ELEMENT fecha_publicacion (#PCDATA)>
+<!ATTLIST libro escritores IDREFS #REQUIRED>
+<!ATTLIST libro id_editorial IDREF #REQUIRED>
+<!ELEMENT revisiones (revision+)>
+<!ELEMENT revision (valoracion, comentario?)>
+<!ATTLIST revision revisor IDREFS #REQUIRED>
+<!ELEMENT valoracion (#PCDATA)>
+<!ELEMENT comentario (#PCDATA)>
+<!-- Autores -->
+<!ELEMENT autores (autor+)>
+<!ELEMENT autor (nombre, apellidos, email)>
+<!ATTLIST autor nif ID #REQUIRED>
+<!ELEMENT nombre (#PCDATA)>
+<!ELEMENT apellidos (#PCDATA)>
+<!ELEMENT email (#PCDATA)>
+<!-- Editoriales -->
+<!ELEMENT editoriales (editorial+)>
+<!ELEMENT editorial (oficina, web)>
+<!ATTLIST editorial nombre_editorial ID #REQUIRED>
+<!ELEMENT oficina (#PCDATA)>
+<!ELEMENT web (#PCDATA)>
