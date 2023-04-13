@@ -20,20 +20,12 @@
 <!-- Una fabricación tiene inicio y fin-->
     <xs:complexType name="detallesFabricacion">
         <xs:sequence>
-            <xs:element name="inicio" type="tipoInicio"></xs:element>
-            <xs:element name="fin" type="tipoFin"></xs:element>
+            <xs:element name="inicio" type="tipoFecha"></xs:element>
+            <xs:element name="fin" type="tipoFecha"></xs:element>
         </xs:sequence>
     </xs:complexType>
-<!-- Inicio tiene dia, mes y año-->
-    <xs:complexType name="tipoInicio">
-        <xs:sequence>
-            <xs:element name="dia" type="xs:string"></xs:element>
-            <xs:element name="mes" type="xs:string"></xs:element>
-            <xs:element name="anyo" type="xs:string"></xs:element>
-        </xs:sequence>
-    </xs:complexType>
-<!-- Fin tiene dia, mes y año-->
-    <xs:complexType name="tipoFin">
+<!-- Inicio y fin tienen dia, mes y año-->
+    <xs:complexType name="tipoFecha">
         <xs:sequence>
             <xs:element name="dia" type="xs:string"></xs:element>
             <xs:element name="mes" type="xs:string"></xs:element>
