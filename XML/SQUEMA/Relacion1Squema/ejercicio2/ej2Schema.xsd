@@ -1,16 +1,50 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
-    <xs:element name="vehiculos"></xs:element>
-    <xs:element name="vehiculo" type="vehiculoInfo"></xs:element>
-    <xs:complexType name="vehiculoInfo">
+<!-- Elemento raíz-->
+    <xs:element name="vehiculos" type="tipoVehiculos"></xs:element>
+<!-- Vehiculos tiene como mínimo 1 vehículo y como máx los que sean-->
+    <xs:complexType name="tipoVehiculos">
+        <xs:sequence>
+            <xs:element name="vehiculo" type="tipoVehiculo" minOccurs="1" maxOccurs="unbounded"></xs:element>
+        </xs:sequence>
+    </xs:complexType>
+<!-- Un vehículo tiene nombre, modelo, fabricación y modificaciones-->
+    <xs:complexType name="tipoVehiculo">
         <xs:sequence>
             <xs:element name="nombre" type="xs:string"></xs:element>
             <xs:element name="modelo" type="xs:string"></xs:element>
             <xs:element name="fabricacion" type="detallesFabricacion"></xs:element>
+            <xs:element name="modificaciones" type="tipoModificaciones"></xs:element>
         </xs:sequence>
     </xs:complexType>
-
-          
-     
+<!-- Una fabricación tiene inicio y fin-->
+    <xs:complexType name="detallesFabricacion">
+        <xs:sequence>
+            <xs:element name="inicio" type="tipoInicio"></xs:element>
+            <xs:element name="fin" type="tipoFin"></xs:element>
+        </xs:sequence>
+    </xs:complexType>
+<!-- Inicio tiene dia, mes y año-->
+    <xs:complexType name="tipoInicio">
+        <xs:sequence>
+            <xs:element name="dia" type="xs:string"></xs:element>
+            <xs:element name="mes" type="xs:string"></xs:element>
+            <xs:element name="anyo" type="xs:string"></xs:element>
+        </xs:sequence>
+    </xs:complexType>
+<!-- Fin tiene dia, mes y año-->
+    <xs:complexType name="tipoFin">
+        <xs:sequence>
+            <xs:element name="dia" type="xs:string"></xs:element>
+            <xs:element name="mes" type="xs:string"></xs:element>
+            <xs:element name="anyo" type="xs:string"></xs:element>
+        </xs:sequence>
+    </xs:complexType>
+<!-- Modicicaciones tiene mín. 1 modificación y máx. las que sean-->
+    <xs:complexType name="tipoModificaciones">
+        <xs:sequence>
+            <xs:element name="modificacion" type="xs:string" minOccurs="1" maxOccurs="unbounded"></xs:element>
+        </xs:sequence>
+    </xs:complexType>
     
 </xs:schema>
