@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+    <xs:element name="vehiculos"></xs:element>
+    <xs:element name="vehiculo" type="vehiculoInfo"></xs:element>
+    <xs:complexType name="vehiculoInfo">
+        <xs:sequence>
+            <xs:element name="nombre" type="xs:string"></xs:element>
+            <xs:element name="modelo" type="xs:string"></xs:element>
+            <xs:element name="fabricacion" type="detallesFabricacion"></xs:element>
+        </xs:sequence>
+    </xs:complexType>
+
+          
+     
+    
+</xs:schema>
