@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<?xml-model href="ej3.xsd" type="application/xml" schematypens="http://www.w3.org/2001/XMLSchema"?>
+<persona nacimiento="1999-10-20">
+    <datos>
+        <nombre>Pepe</nombre>
+        <apellidos>Garcia</apellidos>
+        <dni>25390952</dni>
+    </datos>
+    <comentario>buena gente...</comentario>
+</persona>
