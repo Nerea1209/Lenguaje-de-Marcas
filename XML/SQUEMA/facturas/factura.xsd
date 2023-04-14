@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+    <xs:element name="facturas" type="tipoFacturas"></xs:element>
+
+    <xs:complexType name="tipoFacturas">
+        <xs:sequence>
+            <xs:element name="factura" type="tipoFactura" minOccurs="1" maxOccurs="unbounded"></xs:element>
+        </xs:sequence>
+    </xs:complexType>
+
+    <xs:complexType name="tipoFactura">
+        <xs:sequence>
+            <xs:element name="datos_cliente" type="detallesCliente"></xs:element>
+            <xs:element name="datos_factura" type="detallesFactura"></xs:element>
+        </xs:sequence>
+    </xs:complexType>
+
+    <xs:complexType name="detallesCliente">
+        <xs:sequence>
+            <xs:element name="nombre" type="xs:string"></xs:element>
+            <xs:element name="apellido" type="xs:string" minOccurs="1" maxOccurs="2"></xs:element>
+            <xs:element name="dni" type="xs:string"></xs:element>
+            <xs:element name="tfno" type="xs:string" minOccurs="1" maxOccurs="1" ></xs:element>
+        </xs:sequence>
+        <xs:attribute name="ident" type="xs:ID"></xs:attribute>
+    </xs:complexType>
+
+    <xs:complexType name="detallesFactura">
+        <xs:sequence>
+            <xs:element name="resguardo" type="tipoResguardo"></xs:element>
+            <xs:element name="alquileres" type="tipoAlquileres"></xs:element>
+        </xs:sequence>
+    </xs:complexType>
+
+    <xs:complexType name="tipoResguardo">
+        <xs:sequence>
+            <xs:element name="forma_pago" type="xs:string"></xs:element>
+            <xs:element name="importe_total" type="xs:decimal"></xs:element>
+        </xs:sequence>
+        <xs:attribute name="moneda" type="xs:string"></xs:attribute>
+    </xs:complexType>
+
+    <xs:complexType name="tipoAlquileres">
+        <xs:sequence>
+            <xs:element name="fecha" type="xs:date"></xs:element>
+            <xs:element name="peliculas" type="tipoPeliculas"></xs:element>
+        </xs:sequence>
+    </xs:complexType>
+
+    <xs:complexType name="tipoPeliculas">
+        <xs:sequence>
+            <xs:element name="pelicula" type="tipoPelicula" maxOccurs="unbounded"></xs:element>
+        </xs:sequence>
+    </xs:complexType>
+
+    <xs:complexType name="tipoPelicula">
+        <xs:sequence>
+            <xs:element name="titulo" type="xs:string"></xs:element>
+            <xs:element name="genero" type="xs:string"></xs:element>
+            <xs:element name="duracion" type="xs:positiveInteger"></xs:element>
+            <xs:element name="actores" type="tipoActores"></xs:element>
+        </xs:sequence>
+        <xs:attribute name="id_pelicula" type="xs:ID"></xs:attribute>
+        <xs:attribute name="valoracion" type="xs:string"></xs:attribute>
+    </xs:complexType>
+
+    <xs:complexType name="tipoActores">
+        <xs:sequence>
+            <xs:element name="actor" type="tipoActor" maxOccurs="unbounded"></xs:element>
+        </xs:sequence>
+    </xs:complexType>
+
+    <xs:complexType name="tipoActor">
+        <xs:sequence>
+            <xs:element name="nombre" type="xs:string"></xs:element>
+            <xs:element name="apellido" type="xs:string" maxOccurs="unbounded"></xs:element>
+        </xs:sequence>
+    </xs:complexType>
+</xs:schema>
