@@ -11,7 +11,7 @@
         </datos_cliente>
         <datos_factura>
             <resguardo moneda="euro">
-                <forma_pago> Efectivo </forma_pago>
+                <forma_pago>Efectivo</forma_pago>
                 <importe_total >12325.23</importe_total>
             </resguardo>
             <alquileres>
