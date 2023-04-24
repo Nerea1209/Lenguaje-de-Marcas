@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+<!-- Cartelera -->
+    <xs:element name="cartelera" type="tipoCartelera"/>
+
+<!-- Tiene x peliculas -->
+    <xs:complexType name="tipoCartelera">
+        <xs:sequence>
+            <xs:element name="pelicula" type="tipoPelicula" maxOccurs="unbounded"/>
+        </xs:sequence>
+    </xs:complexType>
+
+<!-- La pelicula tiene -->
+    <xs:complexType name="tipoPelicula">
+        <xs:sequence>
+            <xs:element name="titulo" type="xs:string"/>
+            <xs:element name="titulo_original" type="xs:string" minOccurs="0"/>
+            <xs:element name="nacionalidad" type="xs:string"/>
+            <xs:element name="genero" type="xs:string"/>
+            <xs:choice>
+                <xs:element name="clasificacion" type="tipoClasificacion"/>
+                <xs:element name="sin_clasificar" type="tipoVacio"/>
+            </xs:choice>
+            <xs:element name="sinopsis" type="xs:string"/>
+            <xs:element name="director" type="xs:string"/>
+            <xs:element name="reparto" type="tipoReparto"/>
+            <xs:element name="web" type="xs:string" minOccurs="0"/>
+            <xs:element name="cartel" type="xs:string" minOccurs="0"/>
+        </xs:sequence>
+        <xs:attribute name="codigo" type="xs:ID" use="required"/>
+        <xs:attribute name="duracion" type="xs:positiveInteger" use="required"/>
+        <xs:attribute name="anyo" type="xs:positiveInteger" default="2003"/>
+    </xs:complexType>
+
+<!-- TipoVacio-->
+    <xs:complexType name="tipoVacio"/>
+
+<!-- TipoClasificacion-->
+    <xs:complexType name="tipoClasificacion">
+    <xs:attribute name="edad" type="tipoEdad" use="required"/>
+    </xs:complexType>
+
+<!-- TipoEdad -->
+    <xs:simpleType name="tipoEdad">
+        <xs:restriction base="xs:string">
+            <xs:pattern value="tp|8|12|16|18"></xs:pattern>
+        </xs:restriction>
+    </xs:simpleType>
+
+<!-- tipoReparto -->
+    <xs:complexType name="tipoReparto">
+        <xs:sequence>
+            <xs:element name="actor" type="xs:string" maxOccurs="unbounded"/>
+        </xs:sequence>
+    </xs:complexType>
+</xs:schema>
