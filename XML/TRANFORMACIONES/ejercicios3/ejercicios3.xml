@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="t7.xsl" type="text/xsl"?>
+<tienda>
+    <nombre>La tiendecilla</nombre>
+    <telefono>953 87 12 23</telefono>
+    <producto>
+        <codigo>92</codigo>
+        <cantidad>10</cantidad>
+        <articulo>Radio-Casette</articulo>
+        <precio>20</precio>
+        <foto>Imágenes/radio.jpg</foto>
+    </producto>
+    <producto>
+        <codigo>101</codigo>
+        <cantidad>3</cantidad>
+        <articulo>Sofá</articulo>
+        <precio>1200</precio>
+        <foto>Imágenes/sofa.jpg</foto>
+    </producto>
+    <producto>
+        <codigo>103</codigo>
+        <cantidad>50</cantidad>
+        <articulo>Reloj Cocina</articulo>
+        <precio>1000</precio>
+        <foto>Imágenes/reloh.jpg</foto>
+    </producto>
+    <producto>
+        <codigo>106</codigo>
+        <cantidad>10</cantidad>
+        <articulo>Cama</articulo>
+        <precio>100</precio>
+        <foto>Imágenes/cama.jpg</foto>
+    </producto>
+    <producto>
+        <codigo>120</codigo>
+        <cantidad>2</cantidad>
+        <articulo>Mesa</articulo>
+        <precio>350</precio>
+        <foto>Imágenes/mesa.jpg</foto>
+    </producto>
+</tienda>

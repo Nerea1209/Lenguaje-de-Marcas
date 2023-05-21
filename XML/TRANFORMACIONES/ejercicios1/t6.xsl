@@ -26,4 +26,8 @@
             <li><xsl:value-of select="nombre"/></li>
     </xsl:template>
 
+    <xsl:template>
+            
+    </xsl:template>
+
 </xsl:stylesheet>
