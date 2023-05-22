@@ -1,0 +1,71 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+<xs:element name="bib" type="tipoBib"/>
+
+<xs:complexType name="tipoBib">
+    <xs:sequence>
+        <xs:element name="libro" type="tipoLibro" minOccurs="1" maxOccurs="unbounded"/>
+    </xs:sequence>
+    <xs:attribute name="url" type="xs:string" fixed="http://www.uco.es/servicios/biblioteca/" use="required"/>
+</xs:complexType>
+
+<xs:complexType name="tipoLibro">
+    <xs:sequence>
+        <xs:element name="titulo" type="tipoTexto"/>
+        <xs:choice>
+            <xs:element name="autor" type="tipoDatos" minOccurs="0" maxOccurs="unbounded"/>
+            <xs:element name="editor" type="tipoDatos" minOccurs="0" maxOccurs="unbounded"/>
+        </xs:choice>
+        <xs:element name="editorial" type="tipoTexto"/>
+        <xs:element name="precio" type="tipoPrecio"/>
+    </xs:sequence>
+    <xs:attribute name="año" type="xs:positiveInteger" use="required"/>
+    <xs:attribute name="moneda" type="tipoMoneda" use="required"/>
+</xs:complexType>
+
+<xs:complexType name="tipoDatos">
+    <xs:group ref="datos"></xs:group>
+</xs:complexType>
+
+<xs:group name="datos">
+    <xs:sequence>
+        <xs:element name="apellido" type="tipoTexto"/>
+        <xs:element name="nombre" type="tipoTexto"/>
+        <xs:element name="nacido" type="tipoNacido" minOccurs="0"/>
+        <xs:element name="afiliacion" type="xs:string" minOccurs="0"/>
+    </xs:sequence>
+</xs:group>
+
+<xs:complexType name="tipoNacido" mixed="true">
+    <xs:attribute name="mes" type="tipoMes" use="required"/>
+</xs:complexType>
+
+<xs:simpleType name="tipoMes">
+    <xs:restriction base="xs:string">
+        <xs:pattern value="enero|febrero|marzo|abril|mayo|junio|julio|agosto|septiembre|octubre|noviembre|diciembre"></xs:pattern>
+    </xs:restriction>
+</xs:simpleType>
+
+<xs:simpleType name="tipoMoneda">
+    <xs:restriction base="xs:string">
+        <xs:pattern value="euro|dólar"></xs:pattern>
+    </xs:restriction>
+</xs:simpleType>
+
+<xs:simpleType name="tipoTexto">
+    <xs:restriction base="xs:string">
+        <xs:minLength value="2"></xs:minLength>
+        <xs:maxLength value="50"></xs:maxLength>
+    </xs:restriction>
+</xs:simpleType>
+
+<xs:simpleType name="tipoPrecio">
+    <xs:restriction base="xs:decimal">
+        <xs:minExclusive value="0"></xs:minExclusive>
+        <xs:maxExclusive value="1000"></xs:maxExclusive>
+        <xs:totalDigits value="5"></xs:totalDigits> <!-- Es redundante, pero por si acaso :)-->
+        <xs:fractionDigits value="2"></xs:fractionDigits>
+    </xs:restriction>
+</xs:simpleType>
+
+</xs:schema>

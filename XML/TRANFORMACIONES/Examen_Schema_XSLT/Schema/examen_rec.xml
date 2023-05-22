@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<bib url="http://www.uco.es/servicios/biblioteca/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="examen_rec.xsd">
+    <libro año="1994" moneda="euro">
+        <titulo>TCP/IP Illustrated</titulo>
+        <autor>
+            <apellido>Stevens</apellido>
+            <nombre>W.</nombre>
+        </autor>
+        <editorial>Addison-Wesley</editorial>
+        <precio>65.95</precio>
+    </libro>
+    <libro año="1992" moneda="euro">
+        <titulo>Advan Programming for Unix environment</titulo>
+        <autor>
+            <apellido>Stevens</apellido>
+            <nombre>W.</nombre>
+        </autor>
+        <editorial>Addison-Wesley</editorial>
+        <precio>65.95</precio>
+    </libro>
+    <libro año="2000" moneda="dólar">
+        <titulo>Data on the Web</titulo>
+        <autor>
+            <apellido>Abiteboul</apellido>
+            <nombre>Serge</nombre>
+            <nacido mes="febrero">1975</nacido>
+        </autor>
+        <autor>
+            <apellido>Buneman</apellido>
+            <nombre>Peter</nombre>
+        </autor>
+        <autor>
+            <apellido>Suciu</apellido>
+            <nombre>Dan</nombre>
+        </autor>
+        <editorial>Morgan Kaufmann editorials</editorial>
+        <precio>39.95</precio>
+    </libro>
+    <libro año="1999" moneda="euro">
+        <titulo>Economics of Technology for Digital TV</titulo>
+        <editor>
+            <apellido>Gerbarg</apellido>
+            <nombre>Darcy</nombre>
+            <nacido mes="marzo">1966</nacido>
+            <afiliacion>CITI</afiliacion>
+        </editor>
+        <editorial>Kluwer Academic editorials</editorial>
+        <precio>129.95</precio>
+    </libro>
+</bib>
